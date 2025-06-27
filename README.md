@@ -24,7 +24,7 @@ Hệ thống copy lệnh giao dịch từ Master sang Slave thông qua relay ser
 1. Tools → Options → Expert Advisors
 2. Bật "Allow Automated Trading"
 3. Bật "Allow WebRequest for listed URLs"
-4. Thêm: `http://1.1.1.1:9090`
+4. Thêm: `178.128.106.124`
 
 <!-- [HÌNH: Cấu hình MT5 Expert Advisors] -->
 
@@ -81,7 +81,7 @@ input string SymbolMap1 = "GOLD|XAUUSD";   // Master GOLD → Slave XAUUSD
 | Lỗi | Giải Pháp |
 |-----|-----------|
 | "AUTOMATED TRADING BỊ TẮT" | Bấm F7 hoặc Tools → Options → Allow Automated Trading |
-| "Không thể kết nối" | Thêm `http://1.1.1.1:9090` vào WebRequest |
+| "Không thể kết nối" | Thêm `178.128.106.124` vào WebRequest |
 | "Key đã có Master khác" | Liên hệ admin để reset hoặc mua Key mới |
 | "Key không tồn tại" | Kiểm tra Key hoặc liên hệ admin |
 | "HWID MISMATCH" | Bot đã dùng trên máy khác, liên hệ admin reset |
